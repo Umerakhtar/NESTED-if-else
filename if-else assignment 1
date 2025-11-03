@@ -1,0 +1,13 @@
+u = input("please set username:  ")
+p = input("please set password:  ")
+print (" please use your username and password to login ")
+u1 = input("username:  ")
+p1 = input("password:  ")
+if u1==u:
+    if p1==p:
+        print("login successful")
+    else:
+        print("incorrect password")
+else:
+    print("incorrect username")
+print("please try again")

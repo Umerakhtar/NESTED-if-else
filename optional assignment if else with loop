@@ -1,0 +1,19 @@
+u = input("please set username:  ")
+p = input("please set password:  ")
+print (". . .  please use your username and password to login(in five attempts)  . . . ")
+min = 0
+max = 5
+while min < max:
+    u1 = input("username:  ")
+    p1 = input("password:  ")
+    if u1 == u:
+        if p1 == p:
+            print("login successful")
+            break
+        else:
+            print("incorrect password")
+    else:
+        print("incorrect username")
+    min = min + 1
+else:
+    print("you have used wrong credentials 5 times")

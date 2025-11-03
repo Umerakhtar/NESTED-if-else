@@ -1,0 +1,25 @@
+"""x = 12
+y = 10
+if x==y:
+    print("x is equal to y")
+elif x>y:
+    print("x is greater than y")    
+else:
+    print("x is less than y")
+age = int(input("Enter your age: "))
+if age>=18:
+    print("You are eligible to vote")
+else:
+    print("You are not eligible to vote")"""
+num = int(input("Enter your marks: "))
+if num<0:
+    if num>=90:
+        print("your grade is A")
+    elif num>=70:
+        print("your grade is B") 
+    elif num>=50:
+        print("your grade is C")
+    else:
+        print("you are fail LOOOOSER......GRADE :F")
+else:
+    print("please enter valid marks")
